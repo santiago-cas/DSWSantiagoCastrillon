@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	    <link rel="stylesheet" type="text/css" href="css/style_index.css">
+	    <title>Conceptos2 HTML</title>
+	</head>
+	<body>
+	    <div class="container mt-4">
+	        <div class="row">
+	        	<div class="col-sm-12">
+	        		<header>
+		        		<nav class="navbar navbar-expand-lg navbar-light bg-light">              	
+				      		<a class="navbar-brand navbar-text" href="index.html">DSW</a>
+				      		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+				              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+				              aria-expanded="false" aria-label="Toggle navigation">
+				              <span class="navbar-toggler-icon"></span>
+				            </button>
+				      		<div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+				                <ul class="nav justify-content-end mr-auto">
+					                <li class="nav-item active">
+					                  <a class="nav-link navbar-text" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+					                </li>
+					                <li class="nav-item dropdown">
+					                    <a class="nav-link dropdown-toggle navbar-text" href="#" id="navbarDropdown" role="button" 
+					                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					                      Conceptos
+					                    </a>
+					                    <div id="dropdown_menu_conceptos" class="dropdown-menu" aria-labelledby="navbarDropdown">
+					                      <a class="dropdown-item" href="conceptos_1.html">HTML5</a>
+					                      <a class="dropdown-item" href="estructura.html">Estructura</a>
+					                    </div>
+					                </li>
+					                <li class="nav-item">
+					                  <a class="nav-link navbar-text" href="recursos_1.html">Recursos</a>
+					                </li>
+					                <li class="nav-item dropdown">
+					                    <a class="nav-link dropdown-toggle navbar-text" href="#" id="autoevaluacionDropdown" role="button" 
+					                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					                      Autoevaluación
+					                    </a>
+					                    <div id="dropdown_menu_conceptos" class="dropdown-menu" aria-labelledby="autoevaluacionDropdown">
+					                      <a class="dropdown-item" href="#">Autoevaluación#2</a>
+					                      <a class="dropdown-item" href="#">Autoevaluacion#3</a>
+					                    </div>
+					                </li>
+					                <li class="nav-item">
+					                  <a class="nav-link navbar-text" href="autor.html">Autor</a>
+					                </li>
+
+				                  <!--<li class="nav-item dropdown">
+				                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+				                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				                      Dropdown
+				                    </a>
+				                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				                      <a class="dropdown-item" href="#">Action</a>
+				                      <a class="dropdown-item" href="#">Another action</a>
+				                      <div class="dropdown-divider"></div>
+				                      <a class="dropdown-item" href="#">Something else here</a>
+				                    </div>
+				                  </li>
+				                  <li class="nav-item">
+				                    <a class="nav-link disabled" href="#">Disabled</a>
+				                  </li>-->
+				                </ul>
+				                <!--
+				                <form class="form-inline my-2 my-lg-0">
+				                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				                </form>-->
+				                <img id="img_log" width="45" height="40" src="images/unad_cuadro_U.png">
+				            </div>
+			            </nav>	
+		        	</header>
+	        	</div>
+	        	<div class="col-sm-7 mt-3 text-center">
+	        		<h3>Ejemplo de una página web sencilla</h3>
+	        		<img class="mt-2" src="images/codigo_estructura.png">
+	        	</div>
+	        	<div class="col-sm-5 mt-3">
+	        		<h4 class="mb-4 text-center">Significado de la estructura</h4>
+	        		<div id="accordion" class="mt-2">
+						<div class="card">
+							<div class="card-header custom-color-collapse" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Inicio y Cabecera
+									</button>
+								</h5>
+							</div>
+
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body">
+									<ul>
+										<li><strong>DOCTYPE</strong></li>
+										<p><code>&lt;!DOCTYPE html&gt;</code> La etiqueta doctype declara el tipo de documento, por lo que esta está señalando que este es un documento HTML.</p>
+										<li><strong>HTML</strong></li>
+										<p><code>&lt;html&gt;&lt;/html&gt;</code>Delimita el documento <strong>HTML.</strong></p>
+										<li><strong>META</strong></li>
+										<p><code>&lt;meta name="description" content="Descripción de la WEB"&gt;</code></p>
+										<li><strong>LINK</strong></li>
+										<p><code>&lt;link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet" type="text/css"/&gt;</code>Esta etiqueta contiene un link a una hoja de estilos externa, la cual se utilizará en este documento.</p>
+									</ul>
+									<div>
+										<h5><strong>Uso para META</strong></h5>
+										<ul>
+											<li><strong>META CHARSET</strong></li>
+											<p><code>&lt;meta charset="UTF-8"&gt;</code>Establece el tipo de codificación del documento.</p>
+											<li><strong>META TITLE</strong></li>
+											<p><code>&lt;meta name="title" content="Título de la WEB"&gt;</code>Contiene el titulo que se mostrará en los buscadores.</p>
+											<li><strong>META DESCRIPTION</strong></li>
+											<p><code>&lt;meta name="description" content="Descripción de la WEB"&gt;</code> Es el texto que se muestra bajo el título en los motores de búsqueda.</p>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header custom-color-collapse" id="headingTwo">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Cuerpo, Navegación
+									</button>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="card-body">
+									<ul>
+										<li><strong>BODY</strong></li>
+										<p><code>&lt;body&gt;&lt;/body&gt;</code>La etiqueta body delimita el cuerpo del documento y contiene todo aquello que podremos ver en nuestro navegador. Imágenes, textos, enlaces, video, etc…</p>
+										<li><strong>HEADER</strong></li>
+										<p><code>&lt;header&gt;&lt;/header&gt;</code></p>
+										<li><strong>NAV</strong></li>
+										<p><code>&lt;nav&gt;&lt;/nav&gt;</code>Esta etiqueta sirve para delimitar el menú de la página, donde colocaremos los enlaces internos para movernos entre nuestras diferentes secciones del sitio web.</p>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header custom-color-collapse" id="headingThree">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Encabezados, secciones y direccionamiento
+									</button>
+								</h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+								<div class="card-body">
+									<ul>
+										<li><strong>H1, H2, H3, H4, H5, H6</strong></li>
+										<p>
+											<code>&lt;h1&gt;Título de la WEB&lt;/h1&gt;</code><br>
+											<code>&lt;h2&gt;CONTENIDO PRINCIPAL&lt;/h2&gt;</code><br>
+											<code>&lt;h3&gt;Testimonios&lt;/h3&gt;</code><br>
+											<code>&lt;h4&gt;Avisos legales&lt;/h4&gt;</code><br>
+											Estas etiquetas establecen los encabezados. Se organizan por niveles siendo H1 el más importante y H6 el menos importante.
+										</p>
+										<li><strong>SECTION</strong></li>
+										<p><code>&lt;section&gt;&lt;/section&gt;</code>La etiqueta section engloba una sección de texto, imágenes y otros elementos que guardan cierta relación entre ellos. Normalmente siempre le podremos poner un título o encabezado.</p>
+										<li><strong>ARTICLE</strong></li>
+										<p><code>&lt;article&gt;&lt;/article&gt;</code>La etiqueta article se suele encontrar dentro de una etiqueta section y sirve para dividir y ordenar los contenidos en su interior.</p>
+										<li><strong>DIV</strong></li>
+										<p><code>&lt;div&gt;&lt;/div&gt;</code>Otra forma de dividir contenido para posteriormente aplicarle clases y modificar su estilo.</p>
+										<li><strong>P</strong></li>
+										<p><code>&lt;p&gt;&lt;/p&gt;</code>Entre las etiquetas P colocaremos un párrafo de texto.</p>
+										<li><strong>A</strong></li>
+										<p><code>&lt;a href="http://dominio.com/seccion2.html"&gt;IR SECCIÓN 2&lt;/a&gt;</code>Representa un enlace o hipervínculo.</p>
+										<li><strong>ASIDE</strong></li>
+										<p><code>&lt;aside&gt;&lt;/aside&gt;</code>Contiene información no vital o que no está estrechamente relacionada con el contenido principal de la página como podrían ser banners de anuncios, citas o enlaces externos.</p>
+									</ul>
+									<div>
+										<strong>HREF</strong>
+										<p>Dirección URL hacia la que apunta el enlace.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header custom-color-collapse" id="headingFour">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									Imagenes y atributos
+									</button>
+								</h5>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+								<div class="card-body">
+									<strong>Etiqueta IMG</strong>
+									<p><code>&lt;img src="http://dominio.com/imagen.jpg" alt="paisaje"&gt;</code>Esta etiqueta coloca una imagen en el documento mediante un enlace.</p>
+									<strong>Atributos</strong>
+									<ul>
+										<li><strong>ALT</strong></li>
+										<p>Representa el texto alternativo, muy importante para que los bucadores puedan obtener información de la imagen.</p>
+										<li><strong>SRC</strong></li>
+										<p>URL donde se encuentra la imagen.</p>
+									</ul>
+									<p></p>
+
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header custom-color-collapse" id="headingFive">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									Footer
+									</button>
+								</h5>
+							</div>
+							<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+								<div class="card-body">
+									<strong>FOOTER</strong>
+									<p><code>&lt;footer&gt;&lt;/footer&gt;</code>Aquí encontraríamos el código perteneciente al pie de página, donde se suelen colocar los enlaces a textos legales, el copyright, etc.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+	        	</div>
+	        	<div class="col-sm-12 mt-4">
+	        		<h4 class="text-center">Estructura básica de las etiquetas</h4>
+	        		<p>Las etiquetas son la estructura básica del HTML. Estas etiquetas o tags se componen y contienen otras propiedades, como son los atributos y el contenido.</p>
+	        		<p><strong>HTML</strong> define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. Sin embargo, una etiqueta por sí sola a veces no contiene la suficiente información para estar completamente definida. Para ello contamos con los atributos: pares nombre-valor separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 'simples'. Existen, también, algunos <strong>atributos</strong> que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo ismap para el elemento <code>&lt;img&gt;</code>.</p>
+	        		<hr>
+	        		<p>Esta sería la estructura general de una línea de código en lenguaje HTML:</p>
+	        		<p class="ml-4"><code>&lt;tag attribute1="value1" attribute2="value2"&gt;content&lt;/tag&gt;</code></p>
+	        	</div>
+	        	<div class="col-sm-6">
+	        		<h4 class="text-center">Atributos básicos de las etiquetas</h4>
+	        		<table class="table">
+	        			<thead>
+	        				<tr>
+		        				<th scope="col">Atributo</th>
+		        				<th scope="col">Describción</th>	
+	        				</tr>
+	        				
+	        			</thead>
+	        			<tbody>
+	        				<tr>
+	        					<td><code>id="texto"</code></td>
+	        					<td>Establece un indicador único a cada elemento</td>
+	        				</tr>
+	        				<tr>
+	        					<td><code>class="texto"</code></td>
+	        					<td>Establece la clase CSS que se aplica a los estilos del elemento</td>
+	        				</tr>
+	        				<tr>
+	        					<td><code>style="texto"</code></td>
+	        					<td>Aplica de forma directa los estilos CSS de un elemento</td>
+	        				</tr>
+	        				<tr>
+	        					<td><code>title="texto"</code></td>
+	        					<td>Establece el título del elemento (Mejora la accesibilidad)</td>
+	        				</tr>
+	        			</tbody>
+	        		</table>
+	        	</div>
+	        	<div class="col-sm-6 mt-4">
+	        		<iframe width="540" height="315" src="https://www.youtube.com/embed/mlbUb1_HV-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	        	</div>
+	        	<div class="col-sm-12 mt-4">
+	        		<h4 class="text-center">Bibliografía</h4>
+	        		<ul class="mt-2">
+	        			<li><em>arkaitzgarro. CAPÍTULO 3 ETIQUETAS, ATRIBUTOS Y ELEMENTOS. Recuperado de: <a href="https://www.arkaitzgarro.com/xhtml/capitulo-3.html">https://www.arkaitzgarro.com/xhtml/capitulo-3.html</a></em></li>
+	        			<li><em>vinkula. Estructura del código HTML5 – Anatomía de una página web. Recuperado de: <a href="https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/">https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/</a></em></li>
+	        		</ul>
+	        	</div>
+	        </div>
+	        <footer class="page-footer font-small blue pt-4">
+
+				<!-- Copyright -->
+				<div class="footer-copyright text-center py-3">© 2020 Copyright:
+					Santiago Castrillón Sánchez. Universidad Nacional Abierta y a Distancia (UNAD)
+				</div>
+				<!-- Copyright -->
+
+			</footer>
+	    </div>
+	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+	</body>
+</html>

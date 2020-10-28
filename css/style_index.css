@@ -1,0 +1,131 @@
+#slider_index {
+	place-content: center;
+}
+
+.navbar-text{
+	color: white !important;
+}
+
+.navbar{
+	background: #005883 !important;
+}
+
+.objetivos{
+	background: #d7d7d7;
+	border-radius: 8px;
+}
+
+#objetivos_general{
+	padding-top: 20px;
+	margin-right: 160px !important;
+	margin-left: 16px;
+}
+
+#objetivos_especifico{
+	padding-top: 20px;
+}
+
+.footer-copyright{
+	background:  #005883 !important;
+	color: white !important;
+}
+
+#navbarDropdown:hover{
+	background: #F0B429 !important;
+}
+
+#dropdown_menu_conceptos{
+	background: #F0B429 !important;
+}
+
+.dropdown-item:hover{
+	background: #005883 !important; /* Azul*/
+}
+.dropdown-item{
+	color: white !important;
+}
+
+.introduccion h3{
+	text-align: center !important;
+}
+
+#img_log{
+	border-radius: 20px;
+}
+
+
+
+.nav-link.active{
+	background:  #F0B429 !important; /* Amarillo*/
+	color: white !important;
+	border-color: #F0B429 !important;
+	border-style: solid;
+}
+
+#tab_1{
+	border-color: #F0B429 !important;
+	border-style: solid;
+}
+
+#tab_2{
+	border-color: #F0B429 !important;
+	border-style: solid;
+}
+
+.custom-color-collapse{
+	background: #005883 !important;
+	border-radius: 5px !important;
+}
+
+.custom-color-collapse:hover{
+	background: #F0B429 !important;
+}
+
+.custom-color-collapse h5 button{
+	color: white !important;
+}
+
+.custom-color-collapse h5 button .btn-link{
+	background: #F0B429 !important;	
+}
+
+.card-body{
+	overflow: scroll;
+	height: 280px;
+}
+
+.bg-info{
+	background: #F0B429 !important; /* Amarillo*/
+}
+
+.float-right{
+	background: #005883 !important; /* Azul*/
+}
+
+.float-left{
+	background: #005883 !important; /* Azul*/	
+}
+
+#logotipo{
+	color: white;
+}
+
+.autor{
+	background: #F0B429 !important; /* Amarillo*/
+	border-radius: 10px;
+	color: white;
+	height: 230px;
+}
+
+.img_cite{
+	color: white;
+}
+
+#slider_index{
+	background: #005883 !important; /* Azul*/	
+}
+
+
+#twitter-unad{
+	text-align: -webkit-center;
+}
